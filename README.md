@@ -32,4 +32,16 @@ features are derived from a set of positive and negative training samples.
 
 <img width="442" alt="image" src="https://github.com/subham4444/face/assets/105392902/97fb63c8-274f-4260-bd9b-a7bc8a36b4df">
 
+**3. Labeling and Annotation:**
+Each image in the dataset was assigned a label corresponding to 
+the individual's identity. This labeling process was carried out manually, ensuring the association 
+between the facial features and the respective individuals. Facial landmarks were also annotated 
+using the OpenCV library, providing valuable reference points for subsequent feature extraction 
+and alignment steps. Labels were one hot encoded as shown in the following snippet. 
+
+<img width="224" alt="image" src="https://github.com/subham4444/face/assets/105392902/7a5129ef-55a8-4998-9faa-01e41b1b6f69">
+
+**Network Architecture **
+
+<img width="484" alt="image" src="https://github.com/subham4444/face/assets/105392902/69aebb9e-f930-43b0-903e-ae06a1e4283e">
 
